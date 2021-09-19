@@ -1,0 +1,38 @@
+body{
+    font-size: 14px;
+
+}
+.price-plan .price-form{
+   /* padding: 30px; */
+   height: 100%;
+    border: 1px solid #D6001C;
+}
+.price-plan .price-form button{
+    background-color: #D6001C;
+    color: #fff;
+    width: 20%;
+    transition: 0.3s;
+}
+.price-plan .price-form button:hover{
+    opacity: 30%;
+}
+.price-plan  .bestSaller{
+    position: relative;
+    background-color: #FDF0F1;
+}
+.price-plan  .bestSaller::after{
+    content: "Best Value";
+    padding: 5px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: #D6001C;
+    color: #fff;
+
+}
+
+.price-plan .price-form .descrip{
+    border-top:1px solid #D6001C;
+     
+}

@@ -1,0 +1,195 @@
+
+body{
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.specificColor{
+    color: #D6001C;
+}
+.bg-specific{
+    background-color: #FAF566;
+}
+
+#navbarText ul li{
+    color: #E55E6F;
+    font-size: 14px;
+    padding: 20px 0 20px 0;
+
+
+}
+#navbarText ul li a{
+    color: #E55E6F;
+}
+
+header .btn-connect .fa-whatsapp{
+    position: fixed;
+    bottom: 30px;
+    left: 50px;
+    transition: 0.2s;
+    z-index: 9999999;
+
+}
+header .btn-connect .fa-whatsapp:hover{
+   box-shadow: 0 0 3px #000;
+
+}
+header .btn-connect .robot{
+   
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    transition: 0.3s;
+    z-index: 9999999;
+
+}
+header .btn-connect .robot:hover{
+    box-shadow: 0 0 3px #000;
+ 
+ }
+header .btn-connect .robot .d-flex{
+    box-shadow: 0 0 2px #000
+}
+
+.HeaderBody .container{
+    
+    padding: 0;
+    background-color: #EFEFEF;
+    
+}
+
+.HeaderBody .imgeHeader{
+    height: 100vh;
+    background-image: url('../imges/food.jpg');
+    background-size: cover;
+    background-position: right;
+
+    background-attachment: fixed;
+
+}
+.HeaderBody .specificColor h1{
+    line-height: 1.25em;
+    font-size: 4vw;
+    font-weight: 900;
+
+}
+.HeaderBody .specificColor button{
+    background-color: #D6001C;
+    color: #fff;
+    font-size: 16;
+    transition: 0.3s;
+}
+.HeaderBody .specificColor button:hover{
+    opacity: 0.3;
+}
+.imgBackground{
+    position: relative;
+    height: 80vh;
+    background-image: url(../imges/cook.webp);
+    background-size: cover;
+    background-position: top;
+}
+.imgBackground .colorLayer{
+    position: absolute;
+    inset: 0;
+    background-color:rgba(214, 0, 28,0.4);
+    z-index: 1;
+}
+ span{
+    font-style: italic;
+
+}
+.imgBackground .colorLayer .container .btn-growth{
+    background-color:#D6001C ;
+}
+.imgBackground .colorLayer .container .btn-growth:hover{
+    opacity: 50%;
+}
+.imgBackground .colorLayer .container .btn-cooking{
+    color: #fff;
+    background-color:transparent ;
+    border: 2px solid white;
+}
+.imgBackground .colorLayer .container .btn-cooking:hover{
+    background-color:#fff ;
+    color: #D6001C;
+}
+.service .pacgePrice button{
+    background-color: #D6001C;
+    color: #fff;
+    transition: 0.5s;
+}
+.service .pacgePrice button:hover{
+   opacity: 50%;
+}
+.service .item-img img{
+    height: 100%;
+    width: 100%;
+}
+.imgBackground2{
+    height: 80vh;
+    position: relative;
+    background-image: url(../imges/analysis.webp);
+    background-size: cover;
+    background-position: center;
+}
+.imgBackground2 .colorLayer2{
+    position: absolute;
+    inset: 0;
+    background-color:rgba(214, 0, 28,0.3);
+    z-index: 1;
+}
+.imgBackground2 .colorLayer2 .px-ms-5 button{
+    background-color: #fff;
+    transition: .2s;
+    
+}
+
+.imgBackground2 .colorLayer2 .px-ms-5 button:hover{
+    opacity: 30%;
+    color: #D6001C;
+    
+}
+.crson{
+    background-color:#D6001C ;
+}
+.crson .crson-img .crson-layer {
+    box-shadow: 0 0 6px #ecadb7;
+    
+
+}
+/* .crson .crson-img .crson-text{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: 0;
+} */
+.form form input , .form form textarea{
+    padding: 15px;
+    color: #D6001C; 
+    border: none;
+    border-radius: 0;
+    border-bottom:1px solid #D6001C;
+}
+.form form input:hover , .form form textarea:hover{
+    border:1px solid #D6001C;
+
+}
+.form form input:focus , .form form textarea:focus{
+
+    outline: none;
+    border: 1px solid #D6001C;
+}
+.form form button{
+    margin-top: 20px ;
+    color: #fff;
+    background-color: #D6001C;
+    transition: 0.3s;
+}
+.form form button:hover{
+    
+    opacity: 30%;
+    color: #fff;
+}
+
+
+
